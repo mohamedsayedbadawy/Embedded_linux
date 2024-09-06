@@ -81,4 +81,4 @@ This script is distributed under the MIT License. See [LICENSE](LICENSE) for mor
 
 ## Author
 Mohamed Sayed badawy
-’×ا
+
