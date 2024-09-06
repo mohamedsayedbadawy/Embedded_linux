@@ -80,5 +80,5 @@ The script logs operations to log.txt. It records:
 This script is distributed under the MIT License. See [LICENSE](LICENSE) for more details.
 
 ## Author
-Mohamed Sayed badawy
+Mohamed Sayed Badawy
 
