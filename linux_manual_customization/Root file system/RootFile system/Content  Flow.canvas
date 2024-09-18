@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"750d1dee9b2f1b56","type":"group","x":-58,"y":596,"width":1333,"height":704,"label":"sequence of running kernel"},
+		{"id":"32b2f93324260e37","type":"text","text":"### power on ","x":-38,"y":696,"width":172,"height":60},
+		{"id":"f12d9ecdd2ff333b","type":"text","text":"## kernel space","x":478,"y":696,"width":222,"height":61},
+		{"id":"3a3443bd18b206bb","type":"text","text":"## program","x":915,"y":707,"width":180,"height":50},
+		{"id":"075cb3570344c132","type":"text","text":"## systemd","x":701,"y":907,"width":174,"height":51},
+		{"id":"bb0e0f39c27a94c1","type":"text","text":"## init program","x":1005,"y":907,"width":250,"height":60},
+		{"id":"7fd1dd0c26e7eb92","type":"text","text":"## start  of everything \n- ## firefox\n- ## gui\n- ## terminal \n- ## and all applications","x":618,"y":1078,"width":341,"height":202},
+		{"id":"830ffe317b6a3e92","type":"text","text":"### bootloader","x":229,"y":696,"width":192,"height":60},
+		{"id":"e320553bf64bb68b","type":"text","text":"### Target machine","x":790,"y":236,"width":250,"height":50},
+		{"id":"e3ac7eeca33e7b92","type":"text","text":"### Directories ","x":-292,"y":166,"width":189,"height":58},
+		{"id":"5f3368656d170e3d","type":"text","text":"#### Not Standard","x":-241,"y":375,"width":203,"height":50},
+		{"id":"d9c2efac9f3f22aa","type":"text","text":"## RootFilesystem","x":-331,"y":-315,"width":265,"height":70},
+		{"id":"a7cec10dae28da07","type":"text","text":"### Usage: to make file system on kernel to manage files on kernel","x":-358,"y":-155,"width":320,"height":107},
+		{"id":"7c9f7ab20b052de6","type":"text","text":"## Root file system contents","x":-390,"y":5,"width":385,"height":60},
+		{"id":"fbc2fddba99ba011","type":"text","text":"- #### etc\n- #### bin \n- ### usr \n- #### media \n- #### and another  directories","x":-591,"y":485,"width":296,"height":222},
+		{"id":"6596601df1b0f0a6","type":"text","text":"### standard ","x":-534,"y":375,"width":176,"height":50},
+		{"id":"d642b6c9b63ab13a","type":"file","file":"RootFile system/Host machine configurations.md","x":119,"y":236,"width":551,"height":50},
+		{"id":"7a407d6d62c764d1","type":"text","text":"### main task in this customization \n- #### make root file system that contains hierarchy of normal file system ","x":496,"y":-315,"width":410,"height":180},
+		{"id":"b93cd6a3e53fe7ab","type":"text","text":"## operations","x":589,"y":5,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"ded4d6a100012749","fromNode":"d9c2efac9f3f22aa","fromSide":"bottom","toNode":"a7cec10dae28da07","toSide":"top"},
+		{"id":"b91dc8a90d86d046","fromNode":"7c9f7ab20b052de6","fromSide":"bottom","toNode":"e3ac7eeca33e7b92","toSide":"top"},
+		{"id":"80e4f7ed26f74b2a","fromNode":"e3ac7eeca33e7b92","fromSide":"bottom","toNode":"6596601df1b0f0a6","toSide":"top"},
+		{"id":"523cccfb8398493d","fromNode":"e3ac7eeca33e7b92","fromSide":"bottom","toNode":"5f3368656d170e3d","toSide":"top"},
+		{"id":"1b469fede942d354","fromNode":"6596601df1b0f0a6","fromSide":"bottom","toNode":"fbc2fddba99ba011","toSide":"top"},
+		{"id":"36076823dc89bb9e","fromNode":"b93cd6a3e53fe7ab","fromSide":"bottom","toNode":"e320553bf64bb68b","toSide":"top"},
+		{"id":"7dd3644d26c3c6c4","fromNode":"32b2f93324260e37","fromSide":"right","toNode":"830ffe317b6a3e92","toSide":"left"},
+		{"id":"d9c77dcbc26a8999","fromNode":"830ffe317b6a3e92","fromSide":"right","toNode":"f12d9ecdd2ff333b","toSide":"left"},
+		{"id":"166643a94b14fdea","fromNode":"f12d9ecdd2ff333b","fromSide":"right","toNode":"3a3443bd18b206bb","toSide":"left","label":"runs"},
+		{"id":"3527630e9c93fc6f","fromNode":"3a3443bd18b206bb","fromSide":"bottom","toNode":"075cb3570344c132","toSide":"top"},
+		{"id":"429833d222a75fdb","fromNode":"3a3443bd18b206bb","fromSide":"bottom","toNode":"bb0e0f39c27a94c1","toSide":"top"},
+		{"id":"94eeff46d9966386","fromNode":"075cb3570344c132","fromSide":"bottom","toNode":"7fd1dd0c26e7eb92","toSide":"top"},
+		{"id":"760f5ecc430c6572","fromNode":"b93cd6a3e53fe7ab","fromSide":"bottom","toNode":"d642b6c9b63ab13a","toSide":"top"}
+	]
+}

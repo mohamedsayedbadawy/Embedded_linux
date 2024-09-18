@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"091df818d279bbdc","type":"text","text":"## Target machine","x":-760,"y":-280,"width":270,"height":50},
+		{"id":"b80250486322012f","type":"text","text":"- ### C++ application\n- ### Kernel\n\n- ### Device Driver","x":-761,"y":-140,"width":271,"height":140},
+		{"id":"5c9b4e7efc48b47a","type":"text","text":"# kernel operations","x":-782,"y":40,"width":313,"height":60},
+		{"id":"0d71e1e6ffad72bf","type":"file","file":"Kernel customization/1.Download kernel.md","x":-1320,"y":263,"width":326,"height":50},
+		{"id":"710570dcd4efdb54","type":"file","file":"Kernel customization/2.configure kernel.md","x":-935,"y":264,"width":351,"height":50},
+		{"id":"1d7cbbfa9c2be3f3","type":"file","file":"Kernel customization/Download& build kernel from vendor.md","x":-625,"y":520,"width":514,"height":80},
+		{"id":"74561744a4e0b801","type":"file","file":"Kernel customization/Commands   using main branch.md","x":-4,"y":470,"width":560,"height":50},
+		{"id":"13ae1ab4730526be","type":"file","file":"Kernel customization/3.build kernel.md","x":-374,"y":360,"width":263,"height":54},
+		{"id":"8ea76bae369785cc","type":"file","file":"Kernel customization/4.booting kernel.md","x":-4,"y":235,"width":316,"height":56}
+	],
+	"edges":[
+		{"id":"9818e653dfdcec50","fromNode":"091df818d279bbdc","fromSide":"bottom","toNode":"b80250486322012f","toSide":"top"},
+		{"id":"a977f5b430cf7b37","fromNode":"5c9b4e7efc48b47a","fromSide":"bottom","toNode":"0d71e1e6ffad72bf","toSide":"top"},
+		{"id":"97d56c4bcff39ed7","fromNode":"5c9b4e7efc48b47a","fromSide":"bottom","toNode":"710570dcd4efdb54","toSide":"top"},
+		{"id":"8edfe7e112b41a9e","fromNode":"5c9b4e7efc48b47a","fromSide":"bottom","toNode":"13ae1ab4730526be","toSide":"top"},
+		{"id":"f2966cf5adac69d7","fromNode":"5c9b4e7efc48b47a","fromSide":"bottom","toNode":"8ea76bae369785cc","toSide":"top"},
+		{"id":"2c5c67b03d36aca6","fromNode":"5c9b4e7efc48b47a","fromSide":"bottom","toNode":"74561744a4e0b801","toSide":"top"},
+		{"id":"8a1a8a9595e19bda","fromNode":"5c9b4e7efc48b47a","fromSide":"bottom","toNode":"1d7cbbfa9c2be3f3","toSide":"top"}
+	]
+}

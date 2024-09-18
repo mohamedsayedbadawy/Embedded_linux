@@ -1,0 +1,19 @@
+- ### Difference Between (General purpose controller  ---> PC  )&& SOC &&( specific Micro controller )
+     - #### general purpose (PC)
+         - ##### CPU 
+         - ####   a large number of peripherals 
+        - ####   it does many functions
+    - ### SOC (for certain industry  )
+        - #### CPU
+        - #### And large number of peripherals but less than PC 
+        - #### variance in usage 
+    - ### Single Usage 
+         - #### CPU 
+         - #### number of peripherals 
+         - #### but it's used for certain usage 
+- ## Board  
+     - #### Board --->(SOC +Extension)
+         - #### extensions like (USB - Ethernet - external memory - HDMI + ....... etc )
+    - #### SOC --->( Architecture(CPU)+ peripherals )
+        - #### so will find many Boards  have same  SOC but different  extension ex: raspi3 and raspi4
+    

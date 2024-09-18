@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"e0971c20038a39ff","type":"file","file":"Bootloader Customization/Boot loader.md","x":-620,"y":-520,"width":240,"height":41},
+		{"id":"1f717e7d8b918986","type":"file","file":"Bootloader Customization/SOC (System on chip).md","x":-300,"y":-520,"width":127,"height":50},
+		{"id":"b28c13274ac59c27","type":"text","text":"# key words","x":-413,"y":-700,"width":240,"height":50},
+		{"id":"b005b7f780009b07","x":-121,"y":-520,"width":161,"height":50,"type":"file","file":"Bootloader Customization/U Boot.md"}
+	],
+	"edges":[
+		{"id":"1cf98ae0eef5e0f4","fromNode":"b28c13274ac59c27","fromSide":"bottom","toNode":"e0971c20038a39ff","toSide":"top"},
+		{"id":"f4558d907d3c5b2d","fromNode":"b28c13274ac59c27","fromSide":"bottom","toNode":"1f717e7d8b918986","toSide":"top"},
+		{"id":"58c0d80056eced63","fromNode":"b28c13274ac59c27","fromSide":"bottom","toNode":"b005b7f780009b07","toSide":"top"}
+	]
+}

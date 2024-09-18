@@ -1,0 +1,4 @@
+- ##### clear make ----> make ARCH=arm64  CROSS_COMPILE=aarch64-rpi4-linux-gnu-  distclean   ----> to clear  all configurations
+- #### build menuconfig  make ARCH=arm64  CROSS_COMPILE=aarch64-rpi4-linux-gnu-  menuconfig
+- #### build kernel   -----> make -j4ARCH=arm64 CROSS_COMPILE=aarch64-rpi4-linux-gnu-
+	- #### -j4 -----> to use 4 cores of your processor to build your kernel and work together  in pipeline 
