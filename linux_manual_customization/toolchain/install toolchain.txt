@@ -1,0 +1,41 @@
+1. Setting Up the Toolchain
+Before diving into cross-compilation, let's ensure you have the necessary prerequisites. Run the following commands to install essential tools:
+
+command :sudo apt-get install autoconf automake bison bzip2 cmake flex g++ gawk gcc gettext git gperf help2man libncurses5-dev libstdc++6 libtool libtool-bin make patch python3-dev rsync texinfo unzip wget xz-utils
+
+---------------------------------------------------------------------------------------------------------------------------------
+Now, let's clone the crosstool-NG repository, configure, build, and install it:
+
+commands :
+
+git clone https://github.com/crosstool-ng/crosstool-ng.git 
+cd crosstool-ng 
+./bootstrap
+ ./configure --prefix=${PWD} 
+make 
+make install
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+2. Finding and Building a Toolchain
+   
+   2.1 Finding a Toolchain
+     You can either use a pre-built toolchain or compile your own through crosstool-NG. For the latter, follow these steps:
+commands:
+    bin/ct-ng distclean 
+    bin/ct-ng list-samples 
+    bin/ct-ng <choose sample> 
+    bin/ct-ng menuconfig 
+    bin/ct-ng build
+The output path for your toolchain will be ~/x-tools.
+
+
+  2.2 Building a Toolchain
+   Use crosstool-NG to build a toolchain for Raspberry Pi 4: 
+command:
+
+  bin/ct-ng build
+
+--------------------------------------------------------------------------------------------------------------------------------------
+      Don't Forget PATH variable.  -------> to point to bin in x-toors/aarch64-rpi4-linux-gnu/bin  to use its cross compiler in next customization operations
+
